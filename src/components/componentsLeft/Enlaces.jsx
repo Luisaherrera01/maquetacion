@@ -1,17 +1,17 @@
 
 
-const UlNav = ({enlaces}) => {
+const Enlaces = ({enlaces}) => {
 
     return (
-        <div>
+        <nav>
             <ul>
                 <li>{enlaces.enlace1}</li>
                 <li>{enlaces.enlace2}</li>
                 <li>{enlaces.enlace3}</li>
             </ul>
-        </div>
+        </nav>
         ) 
     }
 
 
-export default UlNav
+export default Enlaces

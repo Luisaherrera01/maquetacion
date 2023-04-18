@@ -1,4 +1,4 @@
-import Img from "../carpetaImagenes/imagen1.jpg"
+import Img from "../../carpetaImagenes/imgHeader.jpg"
 
 const ImgNav = () => {
   return (

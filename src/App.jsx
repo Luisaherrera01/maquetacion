@@ -1,5 +1,5 @@
-import Navegador from "./components/Navegador"
-import SeccionRight from "./components/SeccionRight"
+import Header from "./components/componentsLeft/Header"
+import SeccionRight from "./components/componentsRight/SeccionRight"
 
 
       function App() {
@@ -7,7 +7,7 @@ import SeccionRight from "./components/SeccionRight"
 
   return (
     <div className="App">
-        <Navegador/>
+        <Header/>
         <SeccionRight/>
     </div>
     )
