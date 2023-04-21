@@ -2,7 +2,7 @@ import Img from "../../carpetaImagenes/imgHeader.jpg"
 
 const ImgNav = () => {
   return (
-    <div>
+    <div className="imgNav" >
       <img src={Img}/>
     </div>
   )

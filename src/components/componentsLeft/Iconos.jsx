@@ -2,7 +2,7 @@
 
 const Iconos = ({imgFooters}) => {
   return (
-    <section>
+    <section className="iconos">
       {
         imgFooters.map((icono)=>(
           <section>

@@ -7,7 +7,7 @@ const Nav = () => {
         enlace3:"Enlace3"
     }
   return (
-    <div>
+    <div className="listaEnlaces">
         <Enlaces enlaces={enlaces}/>
     </div>
   )

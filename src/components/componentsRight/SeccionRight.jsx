@@ -4,32 +4,33 @@ import imagen1 from "../../carpetaImagenes/imagen1.jpg"
 import imagen2 from "../../carpetaImagenes/imagen2.jpg"
 import imagen3 from "../../carpetaImagenes/imagen3.jpg"
 import imagen4 from "../../carpetaImagenes/imagen4.jpg"
+import "./styleRight.css"
 
 
 const SeccionRight = () => {
     const imagenes = [
         {
-          nombre:"imagen1",
-          img:imagen1,
+          nombre:"Lorem ipsum dolor ",
+          img:imagen1, 
         },
         {
-          nombre:"imagen2",
+          nombre:"Lorem ipsum dolor ",
           img:imagen2,
         },
         {
-          nombre:"imagen3",
+          nombre:"Lorem ipsum dolor ",
           img:imagen3,
         },
         {
-          nombre:"imagen4",
+          nombre:"Lorem ipsum dolor ",
           img:imagen4,
         }   
       ]
   return (
-    <div>
+    <section className="fondoRight">
         <Boton/>
         <Imagenes imagenes={imagenes}/>
-    </div>
+    </section>
   )
 }
 

@@ -1,17 +1,21 @@
 
 const Imagenes = ({imagenes}) =>{
     return(
-        <section classname="imagenes">
-            <section>
+        <section className="imgRight">
+            
                 {
                     imagenes.map((imagen)=>(
+                        
                         <section>
                             <img src={imagen.img}/>
-                            <p>{imagen.nombre}</p>
+                            
+                            <section className="cardInfo">
+                                <p>{imagen.nombre}</p>
+                            </section>
                         </section>
                     ))
                 }
-            </section>
+            
 
         </section>
     )

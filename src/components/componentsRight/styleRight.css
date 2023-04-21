@@ -1,0 +1,39 @@
+
+.fondoRight{
+    background-color: rgb(235, 232, 232);
+    padding: 40px;
+    width: 100%;
+    height: 100vh;
+}
+
+.boton{
+    margin-bottom: 60px;
+    padding: 20px 50px;
+    border: 1px solid;
+    text-align: center;
+    background-color: rgb(73, 74, 129);
+}
+
+.imgRight {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content:center;
+}
+
+.imgRight img{
+    max-width: 250px;
+    border: 1px solid;
+    border-radius: 3%;
+
+    
+}
+
+
+.cardInfo{
+    border: 1px solid;
+    width: 80%;
+    margin: -6px auto;
+    text-align: center;
+    padding: 20px;
+}
